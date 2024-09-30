@@ -20,3 +20,4 @@ This JavaScript file handles the core functionality of the chatbot. It manages t
 The main structure of the chatbot interface is defined in this file. It includes the chat window, input fields, and buttons for sending messages, clearing the chat, voice input, and reading messages. The layout is simple yet responsive, providing a user-friendly interface.
 ### chatbot.css
 This CSS file styles the chatbot interface, ensuring it is visually appealing and easy to use. It uses modern design principles, with a focus on simplicity and readability. The layout is responsive, adapting to different screen sizes for a smooth user experience on both desktop and mobile devices.
+![image](https://github.com/user-attachments/assets/4a6f1a3c-0729-483c-8394-e36025865412)
