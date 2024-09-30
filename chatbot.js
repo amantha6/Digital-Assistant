@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let chatLog = document.getElementById("chat-log");
     let sendBtn = document.getElementById("send-btn");
     let userInput = document.querySelector(".user-input");
-    let apiKey = "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"; // Replace with a real API key
+    let apiKey = "Your API key"; 
     let apiUrl = "https://api.openai.com/v1/chat/completions";
     let clearBtn = document.getElementById("clear-btn");
     const readCurrentMessage = document.getElementById("message-reader-btn");
