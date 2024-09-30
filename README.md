@@ -7,12 +7,12 @@ This project involves developing conversational agents from scratch. It integrat
 This project focuses on developing a chatbot interface that provides personalized conversational experiences. It leverages the ChatGPT API to generate intelligent and contextually relevant responses while using HTML, CSS, and JavaScript to create an appealing, responsive user interface. The chatbot captures user input and responds effectively, optimizing performance for scalability to handle a large number of interactions.
 
 ## Features:
-### ChatGPT API Integration: Generates intelligent responses to user queries by integrating the ChatGPT API.
-### Responsive Design: The chatbot interface is designed using HTML and CSS to be visually engaging and mobile-friendly.
-### Real-time User Interaction: Captures and processes user input dynamically, ensuring smooth and responsive conversations.
-### Error Handling and Fallbacks: Implements robust mechanisms for error handling, ensuring that the chatbot responds gracefully to unexpected input or API failures.
-### Voice Input and Output: Supports voice recognition for user input and text-to-speech for reading out chatbot responses.
-### Scalability: Optimized for high-traffic environments with efficient handling of multiple chat instances.
+ChatGPT API Integration: Generates intelligent responses to user queries by integrating the ChatGPT API.
+ Responsive Design: The chatbot interface is designed using HTML and CSS to be visually engaging and mobile-friendly.
+ Real-time User Interaction: Captures and processes user input dynamically, ensuring smooth and responsive conversations.
+Error Handling and Fallbacks: Implements robust mechanisms for error handling, ensuring that the chatbot responds gracefully to unexpected input or API failures.
+Voice Input and Output: Supports voice recognition for user input and text-to-speech for reading out chatbot responses.
+ Scalability: Optimized for high-traffic environments with efficient handling of multiple chat instances.
 ## Project Files
 ### chatbot.js
 This JavaScript file handles the core functionality of the chatbot. It manages the interaction with the ChatGPT API, processes user input, and handles special commands like /help and /about. It also includes error handling, voice recognition, and the ability to read out chatbot responses.
