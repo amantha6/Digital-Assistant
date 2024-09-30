@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Assistant</title>
+    <link rel="stylesheet" href="assets/css/chatbot.css">
+    <link rel="shortcut icon" href="assets/images/chatbot.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="chat-container">
+            <div class="chat-header">
+                <h2 class="chatbot-name">Digital Assistant</h2>
+            </div>
+            <div class="chatlog" id="chat-log">
+                <div class="message received">
+                    <p id="welcome-message">Welcome to Digital Assistant! How can I assist you today?</p>
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" class="user-input" placeholder="Type a Message">
+                <button id="send-btn">Send</button>
+                <button id="clear-btn">Clear</button>
+                <button id="voice-btn">Voice</button>
+                <div class="button-group">
+                    <button id="message-reader-btn">Read Last</button>
+                    <button id="conversation-reader-btn">Read All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="loading-indicator">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <script src="assets/js/chatbot.js"></script>
+</body>
+</html>
